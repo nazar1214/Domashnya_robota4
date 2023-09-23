@@ -21,7 +21,7 @@ class Student:
     def new_rokiw(self, new_rokiw):
         self.new_rokiw = new_rokiw
 
-    def display_student_info(self):
+    def disstu(self):
         print("Імя студента:")
         print(f"Імя {self.name}")
         print(f"Прізвище: {self.pri}")
@@ -32,11 +32,11 @@ class Student:
 
 
 student1 = Student("walter", "white", "9", "13", 110)
-student1.display_student_info()
+student1.disstu()
 
 student1.new_name("Jane")
 student1.new_pri("Smith")
 student1.new_rokiw(12)
 student1.new_ozinkyzamis(9)
 student1.new_height("9'11")
-student1.display_student_info()
+student1.disstu()
